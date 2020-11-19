@@ -1,0 +1,45 @@
+package co.edu.campusucc;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Ejercicio5 {
+
+	public static void main(String[] args) {
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *  Autor: Nickson Bravo       * ");
+		 System.out.println(" *  Date: Noviembre 19 2020    * ");
+		 System.out.println(" *    Ciclos condicionales     * ");
+		 System.out.println(" *       Ejercicio 05          * ");
+		 System.out.println(" ******************************* ");
+		   
+		   
+		   int n,c,r,m=0;
+		   Scanner teclado = new Scanner(System.in);
+		   System.out.println("Ingrese un numero: ");
+		   n = teclado.nextInt();
+		   
+		   while (n > 0) {
+			   r= n % 10;
+			   if (r > m) {
+				   m = r;
+			   }
+			   n = n / 10;
+		   }
+		   
+		   System.out.println("El digito mayor es: "+m);
+
+	}
+}
+
+ ******************************* 
+ *  Autor: Nickson Bravo       * 
+ *  Date: Noviembre 19 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *    Ciclos condicionales     * 
+ *       Ejercicio 05          * 
+ ******************************* 
+Ingrese un numero: 
+24219
+El digito mayor es: 9

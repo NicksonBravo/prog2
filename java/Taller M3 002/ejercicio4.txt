@@ -1,0 +1,37 @@
+package co.edu.campusucc;
+
+import java.util.Random;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *  Autor: Nickson Bravo       * ");
+		 System.out.println(" *  Date: Noviembre 19 2020    * ");
+		 System.out.println(" *    Ciclos condicionales     * ");
+		 System.out.println(" *       Ejercicio 04          * ");
+		 System.out.println(" ******************************* ");
+		   
+		   
+		   Random numero = new Random();
+		   int N = numero.nextInt(1000);
+		   Random digito = new Random();
+		   int D = digito.nextInt(9);
+		   
+		   if(N % 10000 == (D / 10000) % 10000) {
+			   System.out.println("El digito "+D+ " NO esta dentro del numero "+N);
+		   }else 
+			   
+			   System.out.println("El digito "+D+ " SI esta dentro del numero "+N);
+    }	
+}
+
+ ******************************* 
+ *  Autor: Nickson Bravo       * 
+ *  Date: Noviembre 19 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *    Ciclos condicionales     * 
+ *       Ejercicio 04          * 
+ ******************************* 
+El digito 4 SI esta dentro del numero 61
