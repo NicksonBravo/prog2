@@ -25,6 +25,8 @@ public class M2001 {
 		
 		System.out.println(elevado);
 		
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();
 	}
 
 }

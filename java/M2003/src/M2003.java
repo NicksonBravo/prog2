@@ -51,7 +51,9 @@ public class M2003 {
 			System.out.println("Su nota definitiva es: "+ definitiva);
 
 		}
-				
+
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();		
 	}
 
 }

@@ -49,7 +49,8 @@ public class Taller_M3_001_0 {
 		}
 		
 		System.out.println("El sueldo a pagar es: "+sueldo);
-
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();
 	}
 
 }

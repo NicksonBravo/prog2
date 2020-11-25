@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class AlgerbinDividin {
 
@@ -17,6 +18,9 @@ public class AlgerbinDividin {
 
 		}
 		System.out.println(dias);
+		
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();
 	}
 
 }

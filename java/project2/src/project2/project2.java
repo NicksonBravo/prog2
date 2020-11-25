@@ -1,5 +1,7 @@
 package project2;
 
+import java.util.Scanner;
+
 public class project2 {
 
 	public static void main(String[] args) {
@@ -12,7 +14,8 @@ public class project2 {
 		System.out.println ("el valor final de s: "+s) ;
 		
 		System.out.println ("el valor final s1: "+s1) ;
-
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();
 	}
-
+	
 }

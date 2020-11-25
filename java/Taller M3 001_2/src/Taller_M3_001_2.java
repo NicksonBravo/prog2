@@ -70,6 +70,9 @@ public class Taller_M3_001_2 {
 		
 		}
 		System.out.println("su tarifa por minuto local es: "+costo);
+		
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();
 	} 
 	
 }

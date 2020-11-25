@@ -33,6 +33,8 @@ public class project1 {
 		
 		System.out.println (" El valor de la variable k es: "+ k ) ;
 		
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();
 	}
-
+	
 }

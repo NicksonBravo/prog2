@@ -36,7 +36,8 @@ public class M2002 {
 		System.out.println("el producto de sus notas es: "+producto);
 		System.out.println("el promedo de sus notas es: "+promedio);
 		
-		
+		System.out.println("Enter para continuar ....");
+		new Scanner(System.in).nextLine();
 	}
 
 }
